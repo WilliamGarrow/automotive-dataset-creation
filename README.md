@@ -25,31 +25,31 @@ file_put_contents('cardata.ser',serialize($put_array));
 Unserialized:
 ```php
 [audi] => Array
-                (
-                    [0] => 100
-                    [1] => 100 E
-                    [2] => 100 quattro
-                    [3] => 200 quattro Turbo
-                    [4] => 200 Turbo
-                    [5] => 80
-                    [6] => 80 quattro
-                    [7] => 90
-                    [8] => 90 quattro
-                )
+    (
+        [0] => 100
+        [1] => 100 E
+        [2] => 100 quattro
+        [3] => 200 quattro Turbo
+        [4] => 200 Turbo
+        [5] => 80
+        [6] => 80 quattro
+        [7] => 90
+        [8] => 90 quattro
+    )
 
-            [bmw] => Array
-                (
-                    [0] => 3 Series 325I
-                    [1] => 3 Series 325is
-                    [2] => 3 Series 325iX
-                    [3] => 5 Series 525i
-                    [4] => 5 Series 535i
-                    [5] => 6 Series 633CSi
-                    [6] => 7 Series 735i
-                    [7] => 7 Series 735iL
-                    [8] => 7 Series 750iL
-                    [9] => M3
-                )
+[bmw] => Array
+    (
+        [0] => 3 Series 325I
+        [1] => 3 Series 325is
+        [2] => 3 Series 325iX
+        [3] => 5 Series 525i
+        [4] => 5 Series 535i
+        [5] => 6 Series 633CSi
+        [6] => 7 Series 735i
+        [7] => 7 Series 735iL
+        [8] => 7 Series 750iL
+        [9] => M3
+    )
 ```
 
 Serialized:
